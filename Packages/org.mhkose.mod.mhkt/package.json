@@ -1,0 +1,11 @@
+{
+  "name": "org.mhkose.mod.mhkt",
+  "version": "1.0.0",
+  "displayName": "Moorhuhn Kart Thunder",
+  "description": "Moorhuhn Kart Thunder for Moorhuhn Kart: Open Source Edition: 12 tracks and arenas, karts, powerups and pickups converted from the original game.",
+  "unity": "6000.6",
+  "license": "MIT",
+  "author": {
+    "name": "MHK:OSE"
+  }
+}

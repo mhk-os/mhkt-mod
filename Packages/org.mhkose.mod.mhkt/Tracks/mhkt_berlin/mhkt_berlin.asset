@@ -27,7 +27,6 @@ MonoBehaviour:
   previewImage: {fileID: 2800000, guid: 3fcc62e0677ac4cc7ba7565a09fbca80, type: 3}
   variant: 
   gravity: 0
-  aiSettings: []
   physics:
     overrideSlopeGravity: 0
     slopeGravityFactor: 1

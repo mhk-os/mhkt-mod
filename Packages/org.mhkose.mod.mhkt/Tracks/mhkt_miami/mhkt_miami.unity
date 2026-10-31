@@ -6912,7 +6912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a03737872414e878537083a7b01cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MHK.Runtime::MHK.Race.TrackRuntime
-  path: {fileID: 1475033110053001566}
   startGrid:
   - {fileID: 704011246469294648}
   - {fileID: 5866832329909599405}
@@ -6927,7 +6926,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294963931
-  alternatePaths: []
   farClip: 2000
   backgroundColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!23 &821416668177881114
@@ -9239,35 +9237,20 @@ MonoBehaviour:
   - position: {x: -191.42352, y: 7.2580714, z: 144.71358}
     width: 10.509535
     flags: 1
-  - position: {x: -196.686, y: 7.468, z: 140.034}
-    width: 10
-    flags: 0
   - position: {x: -202.018, y: 7.744, z: 135.022}
     width: 10
     flags: 0
   - position: {x: -206.284, y: 7.906, z: 129.026}
     width: 11
     flags: 0
-  - position: {x: -209.83, y: 8.068, z: 122.548}
-    width: 11
-    flags: 0
   - position: {x: -211.986, y: 8.17, z: 115.54}
     width: 11
-    flags: 0
-  - position: {x: -212.542, y: 8.254, z: 108.204}
-    width: 10
     flags: 0
   - position: {x: -211.716, y: 8.376, z: 100.912}
     width: 11
     flags: 0
-  - position: {x: -210.208, y: 8.606, z: 93.694}
-    width: 11
-    flags: 0
   - position: {x: -208.206, y: 9.448, z: 86.598}
     width: 10
-    flags: 0
-  - position: {x: -205.626, y: 10.182, z: 79.702}
-    width: 11
     flags: 0
   - position: {x: -202.62, y: 10.596, z: 72.974}
     width: 11
@@ -9275,35 +9258,20 @@ MonoBehaviour:
   - position: {x: -199.436, y: 10.618, z: 66.324}
     width: 10
     flags: 0
-  - position: {x: -196.012, y: 10.558, z: 59.814}
-    width: 11
-    flags: 0
   - position: {x: -192.436, y: 10.494, z: 53.38}
     width: 11
     flags: 0
   - position: {x: -188.946, y: 10.484, z: 46.892}
     width: 11
     flags: 0
-  - position: {x: -185.572, y: 10.354, z: 40.332}
-    width: 11
-    flags: 0
   - position: {x: -182.368, y: 10.318, z: 33.794}
     width: 11
-    flags: 0
-  - position: {x: -179.174, y: 10.304, z: 27.134}
-    width: 10
     flags: 0
   - position: {x: -176.012, y: 10.304, z: 20.498}
     width: 10
     flags: 0
-  - position: {x: -172.846, y: 10.304, z: 13.83}
-    width: 10
-    flags: 0
   - position: {x: -169.682, y: 10.304, z: 7.15}
     width: 10
-    flags: 0
-  - position: {x: -166.536, y: 10.304, z: 0.494}
-    width: 11
     flags: 0
   - position: {x: -163.398, y: 10.304, z: -6.15}
     width: 10
@@ -9311,26 +9279,14 @@ MonoBehaviour:
   - position: {x: -160.252, y: 10.304, z: -12.816}
     width: 10
     flags: 0
-  - position: {x: -157.104, y: 10.304, z: -19.492}
-    width: 10
-    flags: 0
   - position: {x: -153.96, y: 10.304, z: -26.158}
-    width: 10
-    flags: 0
-  - position: {x: -150.82, y: 10.304, z: -32.824}
     width: 10
     flags: 0
   - position: {x: -147.67, y: 10.304, z: -39.502}
     width: 10
     flags: 0
-  - position: {x: -144.524, y: 10.304, z: -46.178}
-    width: 11
-    flags: 0
   - position: {x: -141.382, y: 10.304, z: -52.84}
     width: 11
-    flags: 0
-  - position: {x: -138.246, y: 10.304, z: -59.486}
-    width: 10
     flags: 0
   - position: {x: -135.1, y: 10.318, z: -66.144}
     width: 10
@@ -9338,14 +9294,8 @@ MonoBehaviour:
   - position: {x: -131.942, y: 10.368, z: -72.814}
     width: 11
     flags: 0
-  - position: {x: -128.752, y: 10.458, z: -79.528}
-    width: 10
-    flags: 0
   - position: {x: -125.594, y: 10.586, z: -86.114}
     width: 11
-    flags: 0
-  - position: {x: -122.348, y: 10.624, z: -92.648}
-    width: 10
     flags: 0
   - position: {x: -119.042, y: 10.624, z: -99.226}
     width: 11
@@ -9353,19 +9303,10 @@ MonoBehaviour:
   - position: {x: -115.37, y: 10.614, z: -105.578}
     width: 11
     flags: 0
-  - position: {x: -111.524, y: 10.61, z: -111.88}
-    width: 11
-    flags: 0
   - position: {x: -107.572, y: 10.6, z: -118.108}
     width: 11
     flags: 0
-  - position: {x: -103.378, y: 10.624, z: -124.164}
-    width: 11
-    flags: 0
   - position: {x: -98.666, y: 10.616, z: -129.84}
-    width: 11
-    flags: 0
-  - position: {x: -93.176, y: 10.588, z: -134.728}
     width: 11
     flags: 0
   - position: {x: -87.048, y: 10.526, z: -138.792}
@@ -9377,13 +9318,7 @@ MonoBehaviour:
   - position: {x: -72.894, y: 10.554, z: -142.142}
     width: 10
     flags: 0
-  - position: {x: -65.544, y: 10.58, z: -141.64}
-    width: 11
-    flags: 0
   - position: {x: -58.198, y: 10.624, z: -141.13}
-    width: 11
-    flags: 0
-  - position: {x: -50.898, y: 10.624, z: -140.13}
     width: 11
     flags: 0
   - position: {x: -43.562, y: 10.624, z: -139.586}
@@ -9392,13 +9327,7 @@ MonoBehaviour:
   - position: {x: -36.336, y: 10.624, z: -140.91}
     width: 10
     flags: 0
-  - position: {x: -29.486, y: 10.624, z: -143.604}
-    width: 10
-    flags: 0
   - position: {x: -22.998, y: 10.624, z: -147.092}
-    width: 10
-    flags: 0
-  - position: {x: -16.858, y: 10.624, z: -151.15}
     width: 10
     flags: 0
   - position: {x: -11.18, y: 10.624, z: -155.842}
@@ -9410,20 +9339,11 @@ MonoBehaviour:
   - position: {x: -2.064, y: 10.624, z: -167.344}
     width: 10
     flags: 0
-  - position: {x: 1.2, y: 10.624, z: -173.944}
-    width: 11
-    flags: 0
   - position: {x: 3.588, y: 10.624, z: -180.906}
-    width: 11
-    flags: 0
-  - position: {x: 4.988, y: 10.624, z: -188.134}
     width: 11
     flags: 0
   - position: {x: 5.588, y: 10.624, z: -195.474}
     width: 11
-    flags: 0
-  - position: {x: 5.528, y: 10.624, z: -202.836}
-    width: 10
     flags: 0
   - position: {x: 4.782, y: 10.488, z: -210.164}
     width: 11
@@ -9431,88 +9351,43 @@ MonoBehaviour:
   - position: {x: 3.354, y: 10.042, z: -217.392}
     width: 11
     flags: 0
-  - position: {x: 1.148, y: 9.162, z: -224.412}
-    width: 11
-    flags: 0
   - position: {x: -1.798, y: 8.226, z: -231.162}
-    width: 11
-    flags: 0
-  - position: {x: -5.322, y: 7.126, z: -237.626}
     width: 11
     flags: 0
   - position: {x: -9.272, y: 6.254, z: -243.846}
     width: 11
     flags: 0
-  - position: {x: -13.818, y: 5.526, z: -249.638}
-    width: 10
-    flags: 0
   - position: {x: -19.17, y: 5.044, z: -254.69}
-    width: 11
-    flags: 0
-  - position: {x: -25.158, y: 4.836, z: -258.968}
     width: 11
     flags: 0
   - position: {x: -31.75, y: 4.712, z: -262.228}
     width: 10
     flags: 0
-  - position: {x: -38.758, y: 4.65, z: -264.458}
-    width: 11
-    flags: 0
   - position: {x: -45.992, y: 4.582, z: -265.868}
-    width: 11
-    flags: 0
-  - position: {x: -53.312, y: 4.57, z: -266.732}
     width: 11
     flags: 0
   - position: {x: -57.11106, y: 4.5782633, z: -266.91483}
     width: 11
     flags: 2
-  - position: {x: -60.668, y: 4.586, z: -267.086}
-    width: 11
-    flags: 0
-  - position: {x: -68.03, y: 4.654, z: -266.848}
-    width: 10
-    flags: 0
   - position: {x: -75.346, y: 4.742, z: -266.024}
-    width: 11
-    flags: 0
-  - position: {x: -82.568, y: 4.83, z: -264.59}
     width: 11
     flags: 0
   - position: {x: -89.658, y: 4.944, z: -262.6}
     width: 10
     flags: 0
-  - position: {x: -96.58, y: 5.086, z: -260.076}
-    width: 10
-    flags: 0
   - position: {x: -103.184, y: 5.322, z: -256.824}
     width: 11
-    flags: 0
-  - position: {x: -109.606, y: 5.556, z: -253.214}
-    width: 10
     flags: 0
   - position: {x: -115.962, y: 5.744, z: -249.482}
     width: 10
     flags: 0
-  - position: {x: -122.35, y: 5.94, z: -245.81}
-    width: 11
-    flags: 0
   - position: {x: -128.904, y: 6.12, z: -242.462}
     width: 11
-    flags: 0
-  - position: {x: -135.632, y: 6.262, z: -239.448}
-    width: 10
     flags: 0
   - position: {x: -142.42, y: 6.422, z: -236.588}
     width: 10
     flags: 0
-  - position: {x: -149.324, y: 6.512, z: -234.03}
-    width: 10
-    flags: 0
   - position: {x: -156.372, y: 6.594, z: -231.904}
-    width: 11
-    flags: 0
-  - position: {x: -163.55, y: 6.64, z: -230.24}
     width: 11
     flags: 0
   - position: {x: -170.806, y: 6.708, z: -228.958}
@@ -9521,19 +9396,10 @@ MonoBehaviour:
   - position: {x: -178.116, y: 6.724, z: -228.016}
     width: 11
     flags: 0
-  - position: {x: -185.47, y: 6.662, z: -227.484}
-    width: 10
-    flags: 0
   - position: {x: -192.828, y: 6.6, z: -227.462}
     width: 11
     flags: 0
-  - position: {x: -200.162, y: 6.514, z: -228.038}
-    width: 10
-    flags: 0
   - position: {x: -207.256, y: 6.348, z: -229.954}
-    width: 11
-    flags: 0
-  - position: {x: -213.776, y: 6.084, z: -233.364}
     width: 11
     flags: 0
   - position: {x: -219.612, y: 5.788, z: -237.852}
@@ -9542,19 +9408,10 @@ MonoBehaviour:
   - position: {x: -224.614, y: 5.43, z: -243.242}
     width: 11
     flags: 0
-  - position: {x: -228.608, y: 5.06, z: -249.422}
-    width: 11
-    flags: 0
   - position: {x: -231.534, y: 4.78, z: -256.176}
     width: 10
     flags: 0
-  - position: {x: -233.092, y: 4.576, z: -263.356}
-    width: 10
-    flags: 0
   - position: {x: -233.2, y: 4.498, z: -270.716}
-    width: 11
-    flags: 0
-  - position: {x: -232.22, y: 4.35, z: -278.014}
     width: 11
     flags: 0
   - position: {x: -230.32, y: 4.18, z: -285.124}
@@ -9569,14 +9426,8 @@ MonoBehaviour:
   - position: {x: -218.314, y: 3.408, z: -303.288}
     width: 11
     flags: 0
-  - position: {x: -212.258, y: 3.324, z: -307.478}
-    width: 10
-    flags: 0
   - position: {x: -205.78, y: 3.35, z: -310.976}
     width: 10
-    flags: 0
-  - position: {x: -198.888, y: 3.326, z: -313.542}
-    width: 11
     flags: 0
   - position: {x: -191.77, y: 3.33, z: -315.418}
     width: 11
@@ -9587,19 +9438,10 @@ MonoBehaviour:
   - position: {x: -177.41, y: 3.376, z: -318.712}
     width: 10
     flags: 0
-  - position: {x: -170.174, y: 3.376, z: -320.142}
-    width: 10
-    flags: 0
   - position: {x: -162.944, y: 3.376, z: -321.516}
     width: 10
     flags: 0
-  - position: {x: -155.696, y: 3.376, z: -322.862}
-    width: 11
-    flags: 0
   - position: {x: -148.45, y: 3.376, z: -324.19}
-    width: 10
-    flags: 0
-  - position: {x: -141.2, y: 3.376, z: -325.51}
     width: 10
     flags: 0
   - position: {x: -133.98, y: 3.376, z: -326.816}
@@ -9608,40 +9450,22 @@ MonoBehaviour:
   - position: {x: -126.72, y: 3.376, z: -328.106}
     width: 10
     flags: 0
-  - position: {x: -119.46, y: 3.376, z: -329.376}
-    width: 11
-    flags: 0
   - position: {x: -112.196, y: 3.376, z: -330.632}
     width: 11
     flags: 0
   - position: {x: -104.93, y: 3.376, z: -331.876}
     width: 11
     flags: 0
-  - position: {x: -97.67, y: 3.376, z: -333.104}
-    width: 10
-    flags: 0
   - position: {x: -90.402, y: 3.376, z: -334.32}
     width: 11
-    flags: 0
-  - position: {x: -83.122, y: 3.376, z: -335.52}
-    width: 10
     flags: 0
   - position: {x: -75.844, y: 3.376, z: -336.694}
     width: 10
     flags: 0
-  - position: {x: -68.582, y: 3.376, z: -337.814}
-    width: 11
-    flags: 0
   - position: {x: -61.294, y: 3.376, z: -338.874}
     width: 10
     flags: 0
-  - position: {x: -53.99, y: 3.376, z: -339.86}
-    width: 9
-    flags: 0
   - position: {x: -46.688, y: 3.376, z: -340.74}
-    width: 10
-    flags: 0
-  - position: {x: -39.372, y: 3.376, z: -341.566}
     width: 10
     flags: 0
   - position: {x: -32.04, y: 3.376, z: -342.396}
@@ -9650,14 +9474,8 @@ MonoBehaviour:
   - position: {x: -24.716, y: 3.376, z: -343.21}
     width: 10
     flags: 0
-  - position: {x: -17.39, y: 3.376, z: -343.966}
-    width: 10
-    flags: 0
   - position: {x: -10.056, y: 3.376, z: -344.636}
     width: 10
-    flags: 0
-  - position: {x: -2.708, y: 3.376, z: -345.21}
-    width: 11
     flags: 0
   - position: {x: 4.632, y: 3.376, z: -345.676}
     width: 11
@@ -9665,22 +9483,13 @@ MonoBehaviour:
   - position: {x: 12, y: 3.376, z: -346.036}
     width: 11
     flags: 0
-  - position: {x: 19.356, y: 3.376, z: -346.328}
-    width: 10
-    flags: 0
   - position: {x: 26.722, y: 3.376, z: -346.574}
     width: 11
     flags: 0
   - position: {x: 34.09, y: 3.376, z: -346.784}
     width: 10
     flags: 0
-  - position: {x: 41.456, y: 3.376, z: -346.966}
-    width: 11
-    flags: 0
   - position: {x: 48.826, y: 3.376, z: -347.118}
-    width: 11
-    flags: 0
-  - position: {x: 56.19, y: 3.376, z: -347.24}
     width: 11
     flags: 0
   - position: {x: 63.552, y: 3.376, z: -347.328}
@@ -9689,34 +9498,19 @@ MonoBehaviour:
   - position: {x: 70.922, y: 3.376, z: -347.366}
     width: 10
     flags: 0
-  - position: {x: 78.286, y: 3.376, z: -347.344}
-    width: 10
-    flags: 0
   - position: {x: 85.648, y: 3.376, z: -347.262}
     width: 11
     flags: 2
-  - position: {x: 93.012, y: 3.376, z: -347.126}
-    width: 11
-    flags: 0
   - position: {x: 100.374, y: 3.376, z: -346.954}
     width: 11
     flags: 0
   - position: {x: 107.746, y: 3.376, z: -346.774}
     width: 11
     flags: 0
-  - position: {x: 115.11, y: 3.376, z: -346.582}
-    width: 11
-    flags: 0
   - position: {x: 122.474, y: 3.376, z: -346.356}
     width: 11
     flags: 0
-  - position: {x: 129.836, y: 3.376, z: -346.062}
-    width: 11
-    flags: 0
   - position: {x: 137.192, y: 3.376, z: -345.674}
-    width: 11
-    flags: 0
-  - position: {x: 144.53, y: 3.376, z: -345.16}
     width: 11
     flags: 0
   - position: {x: 151.88, y: 3.376, z: -344.542}
@@ -9725,29 +9519,17 @@ MonoBehaviour:
   - position: {x: 159.214, y: 3.376, z: -343.848}
     width: 10
     flags: 0
-  - position: {x: 166.542, y: 3.376, z: -343.072}
-    width: 11
-    flags: 0
   - position: {x: 173.862, y: 3.374, z: -342.192}
     width: 11
     flags: 0
   - position: {x: 181.166, y: 3.338, z: -341.13}
     width: 10
     flags: 0
-  - position: {x: 188.396, y: 3.322, z: -339.806}
-    width: 10
-    flags: 0
   - position: {x: 195.576, y: 3.346, z: -338.204}
     width: 10
     flags: 0
-  - position: {x: 202.504, y: 3.322, z: -335.728}
-    width: 11
-    flags: 0
   - position: {x: 209.05, y: 3.34, z: -332.348}
     width: 11
-    flags: 0
-  - position: {x: 215.14, y: 3.36, z: -328.21}
-    width: 10
     flags: 0
   - position: {x: 220.632, y: 3.344, z: -323.306}
     width: 11
@@ -9755,38 +9537,20 @@ MonoBehaviour:
   - position: {x: 225.414, y: 3.358, z: -317.714}
     width: 11
     flags: 0
-  - position: {x: 229.406, y: 3.344, z: -311.53}
-    width: 11
-    flags: 0
   - position: {x: 232.708, y: 3.314, z: -304.958}
     width: 11
     flags: 0
-  - position: {x: 235.352, y: 3.4, z: -298.076}
-    width: 10
-    flags: 0
   - position: {x: 237.582, y: 3.58, z: -291.052}
-    width: 11
-    flags: 0
-  - position: {x: 239.494, y: 3.866, z: -283.936}
     width: 11
     flags: 0
   - position: {x: 241.082, y: 4.222, z: -276.748}
     width: 10
     flags: 0
-  - position: {x: 242.268, y: 4.574, z: -269.476}
-    width: 11
-    flags: 0
   - position: {x: 243.12, y: 4.964, z: -262.158}
-    width: 10
-    flags: 0
-  - position: {x: 243.692, y: 5.378, z: -254.812}
     width: 10
     flags: 0
   - position: {x: 243.99, y: 5.812, z: -247.452}
     width: 10
-    flags: 0
-  - position: {x: 243.932, y: 6.194, z: -240.086}
-    width: 11
     flags: 0
   - position: {x: 243.508, y: 6.576, z: -232.734}
     width: 10
@@ -9794,35 +9558,20 @@ MonoBehaviour:
   - position: {x: 242.828, y: 6.958, z: -225.4}
     width: 11
     flags: 0
-  - position: {x: 242.006, y: 7.316, z: -218.078}
-    width: 11
-    flags: 0
   - position: {x: 241, y: 7.588, z: -210.778}
-    width: 12
+    width: 11.474606
     flags: 0
   - position: {x: 239.668, y: 7.82, z: -203.53}
-    width: 10
-    flags: 0
-  - position: {x: 237.784, y: 7.998, z: -196.406}
     width: 10
     flags: 0
   - position: {x: 235.316, y: 8.156, z: -189.478}
     width: 11
     flags: 0
-  - position: {x: 232.266, y: 8.192, z: -182.782}
-    width: 11
-    flags: 0
   - position: {x: 228.934, y: 8.202, z: -176.204}
-    width: 11
-    flags: 0
-  - position: {x: 225.39, y: 8.188, z: -169.744}
     width: 11
     flags: 0
   - position: {x: 221.552, y: 8.142, z: -163.458}
     width: 10
-    flags: 0
-  - position: {x: 217.346, y: 8.504, z: -157.41}
-    width: 11
     flags: 0
   - position: {x: 212.718, y: 8.94, z: -151.694}
     width: 11
@@ -9833,26 +9582,14 @@ MonoBehaviour:
   - position: {x: 202.554, y: 9.974, z: -141.022}
     width: 10
     flags: 0
-  - position: {x: 197.202, y: 10.228, z: -135.95}
-    width: 11
-    flags: 0
   - position: {x: 191.664, y: 10.432, z: -131.078}
     width: 10
-    flags: 0
-  - position: {x: 185.83, y: 10.624, z: -126.6}
-    width: 11
     flags: 0
   - position: {x: 179.534, y: 10.624, z: -122.804}
     width: 10
     flags: 0
-  - position: {x: 172.748, y: 10.624, z: -119.974}
-    width: 11
-    flags: 0
   - position: {x: 165.754, y: 10.624, z: -117.668}
     width: 11
-    flags: 0
-  - position: {x: 158.58, y: 10.624, z: -115.98}
-    width: 10
     flags: 0
   - position: {x: 151.34, y: 10.624, z: -114.59}
     width: 10
@@ -9860,25 +9597,13 @@ MonoBehaviour:
   - position: {x: 144.104, y: 10.624, z: -113.198}
     width: 10
     flags: 0
-  - position: {x: 136.924, y: 10.624, z: -111.562}
-    width: 10
-    flags: 0
   - position: {x: 129.714, y: 10.624, z: -110.056}
-    width: 10
-    flags: 0
-  - position: {x: 122.496, y: 10.624, z: -108.568}
     width: 10
     flags: 0
   - position: {x: 115.416, y: 10.624, z: -106.55}
     width: 10
     flags: 0
-  - position: {x: 108.796, y: 10.624, z: -103.362}
-    width: 10
-    flags: 0
   - position: {x: 102.916, y: 10.624, z: -98.934}
-    width: 11
-    flags: 0
-  - position: {x: 97.694, y: 10.624, z: -93.742}
     width: 11
     flags: 0
   - position: {x: 93.162, y: 10.624, z: -87.938}
@@ -9887,13 +9612,7 @@ MonoBehaviour:
   - position: {x: 89.44, y: 10.624, z: -81.588}
     width: 11
     flags: 0
-  - position: {x: 86.834, y: 10.624, z: -74.712}
-    width: 11
-    flags: 0
   - position: {x: 85.276, y: 10.624, z: -67.516}
-    width: 10
-    flags: 0
-  - position: {x: 84.438, y: 10.624, z: -60.196}
     width: 10
     flags: 0
   - position: {x: 84.078, y: 10.624, z: -52.838}
@@ -9902,52 +9621,28 @@ MonoBehaviour:
   - position: {x: 84.036, y: 10.624, z: -45.466}
     width: 11
     flags: 0
-  - position: {x: 84.678, y: 10.594, z: -38.136}
-    width: 11
-    flags: 0
   - position: {x: 86.042, y: 10.532, z: -30.906}
     width: 11
     flags: 0
   - position: {x: 87.704, y: 10.532, z: -23.74}
     width: 11
     flags: 0
-  - position: {x: 89.642, y: 10.44, z: -16.808}
-    width: 11
-    flags: 0
   - position: {x: 91.952, y: 10.352, z: -9.756}
-    width: 11
-    flags: 0
-  - position: {x: 94.334, y: 10.346, z: -2.768}
     width: 11
     flags: 0
   - position: {x: 95.53874, y: 10.33104, z: 0.6946341}
     width: 11
     flags: 2
-  - position: {x: 96.75, y: 10.316, z: 4.176}
-    width: 11
-    flags: 0
   - position: {x: 99.2, y: 10.304, z: 11.128}
-    width: 11
-    flags: 0
-  - position: {x: 101.68, y: 10.304, z: 18.102}
     width: 11
     flags: 0
   - position: {x: 104.172, y: 10.304, z: 25.068}
     width: 11
     flags: 0
-  - position: {x: 106.656, y: 10.304, z: 31.97}
-    width: 11
-    flags: 0
   - position: {x: 109.164, y: 10.304, z: 38.91}
     width: 11
     flags: 0
-  - position: {x: 111.682, y: 10.304, z: 45.854}
-    width: 11
-    flags: 0
   - position: {x: 114.198, y: 10.304, z: 52.772}
-    width: 11
-    flags: 0
-  - position: {x: 116.724, y: 10.304, z: 59.706}
     width: 11
     flags: 0
   - position: {x: 119.248, y: 10.304, z: 66.612}
@@ -9956,13 +9651,7 @@ MonoBehaviour:
   - position: {x: 121.788, y: 10.304, z: 73.552}
     width: 11
     flags: 0
-  - position: {x: 124.33, y: 10.304, z: 80.488}
-    width: 10
-    flags: 0
   - position: {x: 126.856, y: 10.304, z: 87.376}
-    width: 10
-    flags: 0
-  - position: {x: 129.396, y: 10.304, z: 94.294}
     width: 10
     flags: 0
   - position: {x: 131.954, y: 10.304, z: 101.254}
@@ -9971,44 +9660,23 @@ MonoBehaviour:
   - position: {x: 134.504, y: 10.276, z: 108.194}
     width: 9
     flags: 0
-  - position: {x: 137.048, y: 10.402, z: 115.124}
-    width: 9
-    flags: 0
   - position: {x: 139.578, y: 10.616, z: 122.04}
     width: 10
     flags: 0
-  - position: {x: 142.098, y: 10.62, z: 129.004}
-    width: 11
-    flags: 0
   - position: {x: 144.514, y: 10.624, z: 135.752}
-    width: 11
-    flags: 0
-  - position: {x: 147.162, y: 10.624, z: 142.632}
     width: 11
     flags: 0
   - position: {x: 148.91, y: 10.608, z: 149.756}
     width: 11
     flags: 0
-  - position: {x: 149.564, y: 10.616, z: 157.1}
-    width: 11
-    flags: 0
   - position: {x: 149.326, y: 10.624, z: 164.458}
-    width: 11
-    flags: 0
-  - position: {x: 147.954, y: 10.624, z: 171.686}
     width: 11
     flags: 0
   - position: {x: 145.458, y: 10.624, z: 178.61}
     width: 10
     flags: 0
-  - position: {x: 141.928, y: 9.964, z: 185.068}
-    width: 10
-    flags: 0
   - position: {x: 137.288, y: 8.926, z: 190.772}
     width: 11
-    flags: 0
-  - position: {x: 131.66, y: 7.744, z: 195.508}
-    width: 10
     flags: 0
   - position: {x: 125.398, y: 6.442, z: 199.386}
     width: 10
@@ -10016,31 +9684,16 @@ MonoBehaviour:
   - position: {x: 118.76, y: 5.44, z: 202.55}
     width: 11
     flags: 0
-  - position: {x: 111.826, y: 4.612, z: 205.046}
-    width: 10
-    flags: 0
   - position: {x: 104.766, y: 4.032, z: 207.162}
-    width: 11
-    flags: 0
-  - position: {x: 97.634, y: 3.908, z: 209.026}
     width: 11
     flags: 0
   - position: {x: 90.448, y: 3.864, z: 210.616}
     width: 10
     flags: 0
-  - position: {x: 83.18, y: 3.852, z: 211.818}
-    width: 10
-    flags: 0
   - position: {x: 75.876, y: 3.806, z: 212.774}
     width: 10
     flags: 0
-  - position: {x: 68.558, y: 3.792, z: 213.638}
-    width: 10
-    flags: 0
   - position: {x: 61.246, y: 3.788, z: 214.534}
-    width: 10
-    flags: 0
-  - position: {x: 53.93, y: 3.788, z: 215.392}
     width: 10
     flags: 0
   - position: {x: 46.602, y: 3.788, z: 216.158}
@@ -10052,22 +9705,13 @@ MonoBehaviour:
   - position: {x: 31.906, y: 3.788, z: 217.252}
     width: 10
     flags: 0
-  - position: {x: 24.548, y: 3.788, z: 217.552}
-    width: 11
-    flags: 0
   - position: {x: 17.184, y: 3.788, z: 217.698}
     width: 10
-    flags: 0
-  - position: {x: 9.82, y: 3.788, z: 217.72}
-    width: 11
     flags: 0
   - position: {x: 2.458, y: 3.788, z: 217.658}
     width: 11
     flags: 0
   - position: {x: -4.914, y: 3.788, z: 217.544}
-    width: 11
-    flags: 0
-  - position: {x: -12.28, y: 3.788, z: 217.362}
     width: 11
     flags: 0
   - position: {x: -19.644, y: 3.788, z: 217.092}
@@ -10076,14 +9720,8 @@ MonoBehaviour:
   - position: {x: -27, y: 3.788, z: 216.708}
     width: 11
     flags: 0
-  - position: {x: -34.35, y: 3.788, z: 216.17}
-    width: 11
-    flags: 0
   - position: {x: -41.676, y: 3.788, z: 215.468}
     width: 10
-    flags: 0
-  - position: {x: -49, y: 3.788, z: 214.654}
-    width: 11
     flags: 0
   - position: {x: -56.308, y: 3.794, z: 213.72}
     width: 11
@@ -10091,32 +9729,17 @@ MonoBehaviour:
   - position: {x: -63.598, y: 3.854, z: 212.638}
     width: 11
     flags: 0
-  - position: {x: -70.858, y: 3.87, z: 211.362}
-    width: 11
-    flags: 0
   - position: {x: -78.05, y: 3.89, z: 209.806}
-    width: 11
-    flags: 0
-  - position: {x: -85.176, y: 3.962, z: 207.93}
     width: 11
     flags: 0
   - position: {x: -92.22, y: 4.07, z: 205.78}
     width: 10
     flags: 0
-  - position: {x: -99.192, y: 4.18, z: 203.39}
-    width: 11
-    flags: 0
   - position: {x: -106.106, y: 4.246, z: 200.81}
     width: 10
     flags: 0
-  - position: {x: -112.914, y: 4.348, z: 198.04}
-    width: 11
-    flags: 0
   - position: {x: -119.526, y: 4.524, z: 194.822}
     width: 10
-    flags: 0
-  - position: {x: -125.998, y: 4.702, z: 191.302}
-    width: 11
     flags: 0
   - position: {x: -132.34, y: 4.884, z: 187.552}
     width: 10
@@ -10127,25 +9750,16 @@ MonoBehaviour:
   - position: {x: -144.838, y: 5.332, z: 179.732}
     width: 10
     flags: 0
-  - position: {x: -151.006, y: 5.58, z: 175.698}
-    width: 10
-    flags: 0
   - position: {x: -157.098, y: 5.812, z: 171.568}
     width: 11
     flags: 0
   - position: {x: -163.12, y: 6.078, z: 167.322}
     width: 11
     flags: 0
-  - position: {x: -169.068, y: 6.326, z: 162.976}
-    width: 11
-    flags: 0
   - position: {x: -174.932, y: 6.55, z: 158.518}
     width: 11
     flags: 0
   - position: {x: -180.702, y: 6.792, z: 153.936}
-    width: 11
-    flags: 0
-  - position: {x: -186.358, y: 7.056, z: 149.218}
     width: 11
     flags: 0
 --- !u!4 &1475249420698424219

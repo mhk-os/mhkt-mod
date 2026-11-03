@@ -6,6 +6,10 @@ Moorhuhn Kart Thunder as a mod for Moorhuhn Kart: Open Source Edition, with 12 t
 
 Music (including menu/title/highscore cues) is normalized per song to -16 LUFS. Effects use one attenuation-only gain per source game, matching group medians to the quietest source while preserving intentional differences between cues; borrowed clips follow their source game's gain. Decoded peaks stay below 0 dBFS. Local cue gains and track music volumes are unchanged.
 
+## Oil slick
+
+The oil patch preserves its PNG's source alpha (`TextureImporterAlphaSource.FromInput`) and uses ordinary alpha blending without depth writes. Keep the texture's alpha channel and this import setting when replacing it; the road must remain visible around the spill instead of showing the rectangular quad.
+
 ## Racing paths
 
 Racing paths are stored in the track scenes. Straight sections use fewer nodes; bends, road ramps, checkpoints and shortcut connections retain additional detail. Widths describe the driving corridor rather than adjacent plazas or side streets.

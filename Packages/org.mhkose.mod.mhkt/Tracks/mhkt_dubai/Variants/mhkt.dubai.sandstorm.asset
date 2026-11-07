@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e125eaaa8243c8b3964fc5ee1a61aa, type: 3}
+  m_Name: mhkt.dubai.sandstorm
+  m_EditorClassIdentifier: MHK.Runtime::MHK.Modding.TrackOverlayDefinition
+  id: mhkt.dubai.sandstorm
+  displayName: 'Dubai: Sandstorm'
+  sourceGame: mhkt
+  icon: {fileID: 0}
+  hidden: 0
+  trackId: mhkt.dubai
+  optionId: core.sandstorm
+  isDefault: 0
+  scene:
+    asset: {fileID: 102900000, guid: e38310a1547384b3bbce2a9f96fea47e, type: 3}
+    path: Packages/org.mhkose.mod.mhkt/Tracks/mhkt_dubai/mhkt_dubai.sandstorm.unity
+  contentVersion: 1

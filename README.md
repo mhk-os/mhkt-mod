@@ -16,6 +16,10 @@ Racing paths are stored in the track scenes. Straight sections use fewer nodes; 
 
 The main path follows the paved road, including Macao's island section. Alternate routes retain their intended off-road shortcuts and connect back to the main path through unobstructed entrances.
 
+## Track variants
+
+Every track except Beijing can be driven in reverse. Every track has a time of day option. St. Petersburg has snow, Dubai a sandstorm and every other track rain. The overlay definitions are in each track's `Variants` folder, the overlay scenes (`<track>.night.unity`, `<track>.day.unity`, `<track>.rain.unity`, `<track>.snow.unity`, `<track>.sandstorm.unity`, `<track>.reverse.unity`) next to the track scene, the cover map for rain (`<track>.cover.asset`) beside them and the generated night, day, rain, snow and sandstorm skies in `Textures/Sky`. Night overlays darken the sun and ambient light and turn the karts' headlights on; rain adds rain with thunder, wet uncovered ground and less grip outdoors; snow adds snowfall and a little less grip outdoors; a sandstorm adds thick dusty fog and blowing sand. Reverse overlays turn the speed pad arrows round.
+
 ## License
 
 MIT. Game assets belong to their respective owners. If there is a problem with any of them, message me and I will remove it.

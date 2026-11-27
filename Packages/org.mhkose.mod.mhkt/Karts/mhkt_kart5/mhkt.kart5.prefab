@@ -64,6 +64,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3879903168995711506, guid: 4f1e5c9ac4fbd41b585d22b726e4c1ae, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 0e0c4cec23f034c9287f80ea73d798ee, type: 2}
+    - target: {fileID: 3879903168995711506, guid: 4f1e5c9ac4fbd41b585d22b726e4c1ae, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8efff093749f04289b584032cba70fbe, type: 2}
     - target: {fileID: 6789436916723729381, guid: 4f1e5c9ac4fbd41b585d22b726e4c1ae, type: 3}
       propertyPath: m_Name
       value: mhkt.kart5

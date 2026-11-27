@@ -57,6 +57,8 @@ MonoBehaviour:
   verticalScale: 1
   auraEffect: {fileID: 11400000, guid: d532b022cb1a94a43acb3aebb0cd34bb, type: 2}
   auraRadius: 1.75
+  knocksProps: 1
+  propKnockSpeed: 10
   attachedVfxPrefab: {fileID: 7099389328220194595, guid: 4a18deed3de9a42da97dc41d33cdde6f, type: 3}
   attachToVisual: 0
   attachMount: 3

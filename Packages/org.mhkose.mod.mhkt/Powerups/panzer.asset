@@ -48,5 +48,5 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   aiUsage: 3
-  useSound: {fileID: 8300000, guid: 2080e935652334ca1a2a710ce1ba2166, type: 3}
+  useSound: {fileID: 0}
   family: panzer

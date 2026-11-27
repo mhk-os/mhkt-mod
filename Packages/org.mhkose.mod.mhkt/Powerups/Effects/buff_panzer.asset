@@ -63,7 +63,7 @@ MonoBehaviour:
   opacity: 1
   useCharacterAnimation: 0
   characterAnimation: 19
-  applySound: {fileID: 0}
+  applySound: {fileID: 8300000, guid: 2080e935652334ca1a2a710ce1ba2166, type: 3}
   expiringSound: {fileID: 0}
   expiringSoundLead: 3
   endSound: {fileID: 0}
